@@ -100,11 +100,25 @@ header .sidebuttons a .img-email{
     background: #fff;
   }
 
+.navbar{
+    transition: background-color 0.7s ease-in-out;
+}
 
 .nav-link{
     color:white;
     font-size:20px;
     margin-right:5px;
+    transition: background-color 0.7s ease-in-out;
+}
+
+.navbar.scrolled{
+    background-color:rgba(250, 250, 250, 0.89);
+    opacity:0.98;
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.navbar.scrolled .nav-link{
+    color:black;
 }
 
 .nav-link:hover{
