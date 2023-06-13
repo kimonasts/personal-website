@@ -121,6 +121,10 @@ header .sidebuttons a .img-email{
     color:black;
 }
 
+.navbar.scrolled .nav-link:hover{
+    color:#5753F1
+}
+
 .nav-link:hover{
     color:#5753F1;
 }
