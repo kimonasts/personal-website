@@ -9,3 +9,12 @@
     transform:translateY(0px);
     opacity:1;
 }
+
+.progress-bar.active{
+    animation: load 3s normal forwards;
+}
+
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }

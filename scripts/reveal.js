@@ -16,3 +16,18 @@ function reveal(){
         }
     }
 }
+
+window.addEventListener('scroll',revealProgress);
+    function revealProgress(){
+        var progressBars = document.querySelectorAll('.progress-bar');
+        for(var i=0; i<progressBars.length; i++){
+            var windowHeight = window.innerHeight;
+            var revealtop = progressBars[i].getBoundingClientRect().top;
+            if(revealtop < windowHeight){
+                progressBars[i].classList.add('active');
+    
+            }else{
+                progressBars[i].classList.remove('active');
+            }
+        }
+    }
