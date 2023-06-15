@@ -111,18 +111,20 @@ header .sidebuttons a .img-email{
     transition: background-color 0.7s ease-in-out;
 }
 
-.navbar.scrolled{
-    background-color:rgba(250, 250, 250, 0.89);
-    opacity:0.98;
-    backdrop-filter: saturate(180%) blur(20px);
-}
-
-.navbar.scrolled .nav-link{
-    color:black;
-}
-
-.navbar.scrolled .nav-link:hover{
-    color:#5753F1
+@media (min-width:768px){
+    .navbar.scrolled{
+        background-color:rgba(250, 250, 250, 0.89);
+        opacity:0.98;
+        backdrop-filter: saturate(180%) blur(20px);
+    }
+    
+    .navbar.scrolled .nav-link{
+        color: black!important;
+    }
+    
+    .navbar.scrolled .nav-link:hover{
+        color:#5753F1
+    }
 }
 
 .nav-link:hover{
@@ -134,7 +136,11 @@ header .sidebuttons a .img-email{
 }
 
 .navbar-toggler{
-    border:none
+    border:none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
 }
 
 .header-content{
