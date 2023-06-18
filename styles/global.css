@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .reveal{
     position:relative;
     transform:translateY(50px);
