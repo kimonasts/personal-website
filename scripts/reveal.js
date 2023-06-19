@@ -59,3 +59,10 @@ function revealAbout(){
         }
     } 
 }
+
+
+window.onload = function(){
+    reveal();
+    revealAbout();
+    revealProgress();
+}
