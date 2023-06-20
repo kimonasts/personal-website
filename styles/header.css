@@ -118,11 +118,11 @@ header .sidebuttons a .img-email{
         backdrop-filter: saturate(180%) blur(20px);
     }
     .navbar.scrolled .nav-link{
-        color: black;
+        color: black!important;
     }
     
     .navbar.scrolled .nav-link:hover{
-        color:#5753F1;
+        color:#5753F1!important;
     }
 }
 
