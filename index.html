@@ -555,22 +555,22 @@
 <div class="contact-me" id="contact">
   <h2 class="reveal">Let's chat</h2>
     <div class="container d-flex justify-content-center reveal">
-      <form class="text-center">
+      <form action="https://formspree.io/f/mnqkvqdy" method="POST" class="text-center">
         <div class="mb-3 text-start">
-          <label for="name" class="form-label">Name</label>
-          <input type="text" class="form-control custom-input" id="name" placeholder="Enter your name">
+          <label for="name" class="form-label">First Name</label>
+          <input type="text" class="form-control custom-input" id="first" name="first" placeholder="Enter your First Name" required>
+        </div>
+        <div class="mb-3 text-start">
+          <label for="subject" class="form-label">Last Name</label>
+          <input type="text" class="form-control custom-input" id="last" name="last" placeholder="Enter your Last Name" required>
         </div>
         <div class="mb-3 text-start">
           <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control custom-input" id="email" placeholder="Enter your email">
-        </div>
-        <div class="mb-3 text-start">
-          <label for="subject" class="form-label">Subject</label>
-          <input type="text" class="form-control custom-input" id="subject" placeholder="Enter the subject">
+          <input type="email" class="form-control custom-input" id="email" name="email" placeholder="Enter your Email" required>
         </div>
         <div class="mb-3 text-start">
           <label for="message" class="form-label">Message</label>
-          <textarea class="form-control custom-input" id="message" rows="5" placeholder="Enter your message"></textarea>
+          <textarea class="form-control custom-input" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Send Message</button>
       </form>
