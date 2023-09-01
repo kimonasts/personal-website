@@ -1,9 +1,10 @@
 /******************* Timeline Demo - 3 *****************/
-.timeline-component h2{text-align: center; color: #5753F1;margin-top:60px}
-.timeline-component h3{text-align: center; font-size:40px;}
+.timeline-component h4{text-align: center; color: #5753F1;padding-top:4rem}
+.timeline-component p{text-align: center; font-size:30px;}
 #container3{font-family:'Roboto Slab',sans-serif}
 a{text-decoration: none;}
 .main-timeline3{overflow:hidden;position:relative}
+.main-timeline3 .timeline p{text-align: start;}
 .main-timeline3:before{content:"";width:10px;height:100%;border:3px solid #959595;position:absolute;top:40px;left:50%;transform:translateX(-50%)}
 .main-timeline3 .timeline{width:50%;padding:10px 60px 10px 100px;float:right;position:relative}
 .main-timeline3 .timeline:before{content:"";width:40px;height:40px;border-radius:50%;background:#ca8b5e;border:5px solid #fff;box-shadow:0 0 1px 5px #ca8b5e;position:absolute;top:42px;left:-20px}

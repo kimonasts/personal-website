@@ -1,9 +1,10 @@
 .about{
     font-family: 'Roboto Slab', sans-serif;
+    padding-top:4rem;
     width:100%;
 }
 
-.about h2{
+.about h4{
     text-align: center;
     color:#5753F1;
 }
@@ -33,6 +34,8 @@
 
 .period{
     font-size: 0.9rem;
+    color:rgb(115, 130, 158);
+    font-weight: 100;
 }
 
 .text-container{

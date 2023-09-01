@@ -1,9 +1,9 @@
 .contact-me{
-    margin-top:60px;
+    padding-top:4rem;
     font-family:'Roboto Slab', sans-serif;
 }
 
-.contact-me h2{
+.contact-me h4{
     text-align: center;
     color:#5753F1;
 }
@@ -16,10 +16,6 @@ form{
     padding: 10px 10px;
     border-radius: 16px;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.377)
-}
-
-.btn{
-    width:450px;
 }
 
 footer{
@@ -51,6 +47,10 @@ footer{
 
 .social-media img{
     padding-right: 0.7rem;
+}
+
+.submit-button{
+    padding:5px 170px;
 }
 
 /* .contact-icons{

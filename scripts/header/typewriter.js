@@ -1,5 +1,5 @@
 var typed = new Typed(".type",{
-    strings:["CS graduate from University of Exeter", "AI Masters student at Kings College London"],
+    strings:["Computer Science graduate from University of Exeter", "Artificial Intelligence Masters student at Kings College London"],
     stringElements: null,
     loop:true,
     startDelay: 100,
