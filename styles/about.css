@@ -63,3 +63,9 @@
     transform:translateX(0px);
     opacity:1;
 }
+
+@media (max-width:768px){
+    .col-4{
+        width:100%
+    }
+}

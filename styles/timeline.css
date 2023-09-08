@@ -30,7 +30,7 @@ a{text-decoration: none;}
 .main-timeline3 .timeline:nth-child(4n) .year:before{border-top-color:#859273}
 
 
-@media only screen and (max-width:1200px){
+@media (max-width:1200px){
     .main-timeline3 .timeline:nth-child(1n) .year p{font-size:25px}
     .main-timeline3 .timeline:nth-child(2n) .year p{font-size:25px}
     .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
@@ -38,30 +38,51 @@ a{text-decoration: none;}
 }
 
 
-@media only screen and (max-width:992px){.main-timeline3:before{width:8px;top:0;left:12px;transform:translateX(0)}
+@media (max-width:992px){.main-timeline3:before{width:8px;top:0;left:12px;transform:translateX(0)}
 .main-timeline3 .timeline,.main-timeline3 .timeline:nth-child(even),.main-timeline3 .timeline:nth-child(odd){width:100%;float:none;text-align:left;padding:0 0 0 60px;margin:0 0 30px}
 .main-timeline3 .timeline:before,.main-timeline3 .timeline:nth-child(2n):before{width:20px;height:20px;border:3px solid #fff;top:38px;left:6px}
 .main-timeline3 .timeline:nth-child(2n) .year{right:auto;left:-20px;border-radius:10px 10px 10px 0;padding:0 0 0 50px;}
 .main-timeline3 .timeline:nth-child(2n) .year:before{border-left:20px solid transparent;border-bottom:20px solid transparent;border-right:none;right:auto;left:0}
 }
 
-@media only screen and (max-width:423px){
-    .main-timeline3 .timeline:nth-child(1n) .year{text-align:start;font-size:25px}
-    .main-timeline3 .timeline:nth-child(2n) .year{text-align:start;font-size:25px}
-    main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
-    .main-timeline3 .timeline:nth-child(3n) .year{text-align:start;font-size:25px}
+@media (max-width:423px){
+    .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:25px}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:25px}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
+    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:25px}
 }
 
-@media only screen and (max-width:400px){
-    .main-timeline3 .timeline:nth-child(1n) .year{text-align:start;font-size:20px}
-    .main-timeline3 .timeline:nth-child(2n) .year{text-align:start;font-size:20px}
-    main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
-    .main-timeline3 .timeline:nth-child(3n) .year{text-align:start;font-size:20px}
+@media (max-width:400px){
+    .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:20px}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:20px}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
+    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:20px}
 }
 
-@media only screen and (max-width:347px){
-    .main-timeline3 .timeline:nth-child(1n) .year{text-align:start;font-size:16px}
-    .main-timeline3 .timeline:nth-child(2n) .year{text-align:start;font-size:16px}
-    main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
-    .main-timeline3 .timeline:nth-child(3n) .year{text-align:start;font-size:16px}
+@media (max-width:380px){
+    .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:18px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:18px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
+    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:18px!important}
+}
+
+@media (max-width:340px){
+    .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:16px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:16px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
+    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:16px!important}
+}
+
+@media (max-width:310px){
+    .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:14px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:14px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
+    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:14px!important}
+}
+
+@media (max-width:290px){
+    .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:13px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:13px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
+    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:13px!important}
 }

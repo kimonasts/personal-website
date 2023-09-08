@@ -39,6 +39,7 @@
 .details{
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .carousel{
@@ -62,10 +63,28 @@
       width:40px;
     }
   
-    .db{
-      height:30px;
-      width:30px;
-    }
+    /* .db{
+      height:60px;
+      width:60px;
+    } */
+}
+
+.git-button{
+  display:flex;
+  align-items: center;
+}
+
+.git-link{
+  padding:0.4rem 0.8rem;
+  background-color: rgb(4, 4, 242);
+  color:white;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius:6px;
+}
+
+.git-link:hover{
+  background-color: blue;
 }
 
 @media (max-width:1414px){
@@ -117,7 +136,23 @@
   }
 
   .db{
-    height:50px;
-    width:50px;
+    height:70px;
+    width:70px;
+  }
+}
+
+@media (max-width:992px){
+  .details{
+    display:block;
+  }
+
+  .pr-language{
+    width:45px;
+    height:45px;
+  }
+
+  .db{
+    height:55px;
+    width:55px;
   }
 }
