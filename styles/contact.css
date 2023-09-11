@@ -15,7 +15,7 @@
 form{
     width:40%;
     border-radius: 16px;
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.377)
+    box-shadow: 3.5px 3.5px rgba(0, 0, 0, 0.377)
 }
 
 footer{
@@ -114,6 +114,6 @@ footer img{
     form{
         width:90%;
         border-radius: 16px;
-        box-shadow: 4px 4px rgba(0, 0, 0, 0.377)
+        box-shadow: 4px 4px rgba(0, 0, 0, 0.377);
     }
 }

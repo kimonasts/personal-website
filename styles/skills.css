@@ -15,10 +15,14 @@
 
 #container2{
     margin-top:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
     /* background-color: rgb(165, 100, 20); */
 }
+
 .my-3{
-    box-shadow: 5px 5px rgba(0, 0, 0, 0.363);
+    box-shadow: 3.5px 3.5px rgba(0, 0, 0, 0.363);
     width:32%
 }
 

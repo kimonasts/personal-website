@@ -1,7 +1,7 @@
 /******************* Timeline Demo - 3 *****************/
 .timeline-component h4{text-align: center; color: #5753F1;padding-top:4rem}
 .timeline-component p{text-align: center; font-size:30px;}
-#container3{font-family:'Roboto Slab',sans-serif}
+#container3{font-family:'Roboto Slab',sans-serif; }
 a{text-decoration: none;}
 .main-timeline3{overflow:hidden;position:relative}
 .main-timeline3 .timeline p{text-align: start;}
@@ -13,7 +13,7 @@ a{text-decoration: none;}
 .main-timeline3 .year{display:block;width:80%;height:50px;background:rgb(15, 254, 214);padding:0 0 0 50px;font-size:30px;font-weight:800;color:#fff;line-height:50px;box-shadow:0 0 20px rgba(0,0,0,.4) inset;border-radius:10px 10px 10px 0;position:absolute;top:20px;left:-20px}
 .main-timeline3 .year:before{content:"";border-top:40px solid rgb(15, 254, 214);border-left:20px solid transparent;border-bottom:20px solid transparent;position:absolute;bottom:-60px;left:0}
 .main-timeline3 .title{font-size:18px;margin-top:10px;font-weight:600;color:#4a4a4a;text-align: center;}
-.main-timeline3 .description{font-size:14px;color:#6f6f6f;margin:0 0 5px}
+.main-timeline3 .description{font-size:14px;color:#282626;margin:0 0 5px}
 .main-timeline3 .timeline:nth-child(2n){padding:10px 100px 10px 60px;text-align:right}
 .main-timeline3 .timeline:nth-child(2n):before{left:auto;right:-20px;background:#3997bd;box-shadow:0 0 1px 5px #3997bd}
 .main-timeline3 .timeline:nth-child(2n) .year{padding-right:50px;border-radius:10px 10px 0;left:auto;right:-20px;background:#3997bd}
@@ -28,6 +28,9 @@ a{text-decoration: none;}
 .main-timeline3 .timeline:nth-child(4n):before{background:#859273;box-shadow:0 0 1px 5px #859273}
 .main-timeline3 .timeline:nth-child(4n) .year{background:#859273}
 .main-timeline3 .timeline:nth-child(4n) .year:before{border-top-color:#859273}
+.main-timeline3 .timeline:nth-child(5n):before{background:#d5a441;box-shadow:0 0 1px 5px #d5a441}
+.main-timeline3 .timeline:nth-child(5n) .year{background:#d5a441}
+.main-timeline3 .timeline:nth-child(5n) .year:before{border-top-color:#d5a441}
 
 
 @media (max-width:1200px){
@@ -73,16 +76,17 @@ a{text-decoration: none;}
     .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:16px!important}
 }
 
-@media (max-width:310px){
+@media (max-width:316px){
     .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:14px!important}
     .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:14px!important}
-    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
-    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:14px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:300px}
+    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:14px!important;}
 }
 
-@media (max-width:290px){
-    .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:13px!important}
-    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:13px!important}
-    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:200px}
-    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:13px!important}
+@media (max-width:300px){
+    .main-timeline3 .timeline:nth-child(1n) .year p{text-align:start;font-size:12px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start;font-size:12px!important}
+    .main-timeline3 .timeline:nth-child(2n) .year p{text-align:start; width:300px}
+    .main-timeline3 .timeline:nth-child(3n) .year p{text-align:start;font-size:12px!important;}
+    .main-timeline3 .timeline .title{font-size: 15px;}
 }

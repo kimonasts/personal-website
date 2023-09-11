@@ -193,7 +193,6 @@ header .sidebuttons a .img-email{
 
 .cv-button{
     margin-top:1rem;
-    display:flex;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -201,6 +200,7 @@ header .sidebuttons a .img-email{
     width: 30%;
     text-align: center;
 }
+
 
 @media (min-width:768px){
     .navbar.scrolled{
@@ -245,6 +245,9 @@ header .sidebuttons a .img-email{
     .download-cv{
         width:40%;
     }
+    .cv-button .btn{
+        padding:4px 0px;
+    }
 }
 
 @media (max-width:900px){
@@ -261,6 +264,7 @@ header .sidebuttons a .img-email{
 
     .download-cv{
         width:45%;
+        font-size: 15px;
     }
 
     /* .header-content .description{
@@ -313,6 +317,7 @@ header .sidebuttons a .img-email{
 
     .download-cv{
         width: 55%;
+        font-size: 14px;
     }
 
 }
@@ -320,6 +325,9 @@ header .sidebuttons a .img-email{
 @media (max-width:674px){
     .profile{
         transform: translate(-45%,-40%);
+    }
+    .cv-button .btn{
+        padding:3px 0px;
     }
 }
 
@@ -367,6 +375,10 @@ header .sidebuttons a .img-email{
 
     .download-cv{
         width: 30%;
+    }
+
+    .cv-button .btn{
+        padding:4.5px 0px;
     }
 }
 
@@ -429,6 +441,9 @@ header .sidebuttons a .img-email{
         width:305px;
         height:305px;
     }
+    .cv-button .btn{
+        padding:4px 0px;
+    }
 }
 
 @media (max-width:420px){
@@ -448,6 +463,9 @@ header .sidebuttons a .img-email{
     .download-cv{
         width: 43%;
     }
+    .cv-button .btn{
+        padding:3px 0px;
+    }
 }
 
 @media (max-width:410px){
@@ -460,6 +478,12 @@ header .sidebuttons a .img-email{
         .prof-img{
             width:290px;
             height:290px;
+        }
+        .download-cv{
+            font-size: 13.5px;
+        }
+        .cv-button .btn{
+            padding:2.5px 0px;
         }
 }
 
@@ -563,5 +587,9 @@ header .sidebuttons a .img-email{
     }
     .download-cv{
         width: 63.5%;
+        font-size: 13px;
+    }
+    .cv-button .btn{
+        padding: 2px 0;
     }
 }
