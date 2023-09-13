@@ -7,11 +7,11 @@ a{text-decoration: none;}
 .main-timeline3 .timeline p{text-align: start;}
 .main-timeline3:before{content:"";width:10px;height:100%;border:3px solid #959595;position:absolute;top:40px;left:50%;transform:translateX(-50%)}
 .main-timeline3 .timeline{width:50%;padding:10px 60px 10px 100px;float:right;position:relative}
-.main-timeline3 .timeline:before{content:"";width:40px;height:40px;border-radius:50%;background:rgb(15, 254, 214);border:5px solid #fff;box-shadow:0 0 1px 5px rgb(15, 254, 214);position:absolute;top:42px;left:-20px}
+.main-timeline3 .timeline:before{content:"";width:40px;height:40px;border-radius:50%;background:rgb(23, 146, 125);border:5px solid #fff;box-shadow:0 0 1px 5px rgb(23, 146, 125);position:absolute;top:42px;left:-20px}
 .main-timeline3 .timeline-content{display:block;background:#FFFFFF;padding:70px 30px 20px;box-shadow:0 0 10px rgba(0,0,0,.2) inset;position:relative}
 .main-timeline3 .timeline-content:hover{text-decoration:none}
-.main-timeline3 .year{display:block;width:80%;height:50px;background:rgb(15, 254, 214);padding:0 0 0 50px;font-size:30px;font-weight:800;color:#fff;line-height:50px;box-shadow:0 0 20px rgba(0,0,0,.4) inset;border-radius:10px 10px 10px 0;position:absolute;top:20px;left:-20px}
-.main-timeline3 .year:before{content:"";border-top:40px solid rgb(15, 254, 214);border-left:20px solid transparent;border-bottom:20px solid transparent;position:absolute;bottom:-60px;left:0}
+.main-timeline3 .year{display:block;width:80%;height:50px;background:rgb(23, 146, 125);padding:0 0 0 50px;font-size:30px;font-weight:800;color:#fff;line-height:50px;box-shadow:0 0 20px rgba(0,0,0,.4) inset;border-radius:10px 10px 10px 0;position:absolute;top:20px;left:-20px}
+.main-timeline3 .year:before{content:"";border-top:40px solid rgb(23, 146, 125);border-left:20px solid transparent;border-bottom:20px solid transparent;position:absolute;bottom:-60px;left:0}
 .main-timeline3 .title{font-size:18px;margin-top:10px;font-weight:600;color:#4a4a4a;text-align: center;}
 .main-timeline3 .description{font-size:14px;color:#282626;margin:0 0 5px}
 .main-timeline3 .timeline:nth-child(2n){padding:10px 100px 10px 60px;text-align:right}
