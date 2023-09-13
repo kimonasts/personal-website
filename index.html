@@ -545,7 +545,7 @@
   <div class="contact-me" id="contact">
     <h4 class="reveal">Let's chat<span style="font-size: 30px"><a href="https://www.flaticon.com/free-icons/message"><img style="margin-left:7px;margin-bottom:7px;" src="images/contact/chat.png" height="32" width="32" alt=""></a></span></h4>
       <div class="container d-flex mt-4 justify-content-center reveal">
-        <form action="https://formspree.io/f/mnqkvqdy" style="background-color: white; padding:1rem 1rem" method="POST" class="text-center">
+        <form action="https://formspree.io/f/mnqkvqdy" style="background-color: white; padding:1rem 1rem" method="POST" class="text-center" id="contact-form">
           <div class="mb-3 text-start">
             <label for="name" class="form-label">First Name</label>
             <input type="text" class="form-control custom-input" id="first" name="first" placeholder="Enter your First Name" required>
@@ -585,7 +585,10 @@
       &copy; Copyright 2023. All rights reserved.
     </div>
   </footer>
-  
+  <div id="snackbar-success">Form submitted successfully</div>
+  <div id="snackbar-fail">Form submission failed</div>
+
+
   <a href="#" class="to-top">
     <img src="images/chevron-up-solid.svg" width="30" height="30">
   </a>
@@ -595,6 +598,7 @@
   <script type="text/javascript" src="scripts/header/navbar.js"></script>
   <script type="text/javascript" src="scripts/reveal.js"></script>
   <script type="text/javascript" src="scripts/to-top.js"></script>
+  <script type="text/javascript" src="scripts/submit-form.js"></script>
 
 </body>
 
