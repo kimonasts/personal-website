@@ -56,12 +56,3 @@ document.querySelector('.navbar-toggler').addEventListener("click",()=>{
     }
     
 })
-
-// window.addEventListener('resize',()=>{
-//     ariaExpanded = document.getElementById("toggler").getAttribute('aria-expanded');
-//     navbar = document.querySelector('.navbar');
-//     console.log(window.innerWidth)
-//     if (ariaExpanded && window.innerWidth>=768){
-        
-//     }
-// })
