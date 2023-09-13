@@ -9,6 +9,11 @@ function handleFormSubmission(event) {
     const form = document.getElementById("contact-form");
     const formData = new FormData(form);
 
+    document.getElementById("first").value = "";
+    document.getElementById("last").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+
     // Submit the form data to Formspree using fetch
     fetch("https://formspree.io/f/mnqkvqdy", {
         method: "POST",
@@ -25,10 +30,6 @@ function handleFormSubmission(event) {
         }
         
         // Reset the input fields
-        document.getElementById("first").value = "";
-        document.getElementById("last").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("message").value = "";
     })
     .catch(error => {
         // Handle any errors that occurred during the fetch
