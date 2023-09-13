@@ -1,5 +1,5 @@
 document.getElementById("submit-button").addEventListener("click", handleFormSubmission);
-document.getElementById("submit-button").addEventListener("touchstart", handleFormSubmission);
+// document.getElementById("submit-button").addEventListener("touchstart", handleFormSubmission);
 
 function handleFormSubmission(event) {
     // Prevent the default form submission behavior
