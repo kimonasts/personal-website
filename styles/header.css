@@ -13,6 +13,8 @@ header h1{
 
 header .sidebuttons{
     position:absolute;
+    left: 0;
+    top: 80px;
     margin-top: 90px;
     z-index: 5;
 }
@@ -31,14 +33,8 @@ header .sidebuttons a{
 }
 
 .profile{
-    position:absolute;
-    left:45%;
-    top:30%;
-    transform: translate(-37%,-40%);
-    /* background-color: green; */
     display:flex;
     align-items: center;
-    width:100%;
     z-index: 1;
 }
 
@@ -61,7 +57,6 @@ header .sidebuttons a{
     border-radius: 50%;
     object-fit: cover;
     margin-left:40px;
-    margin-bottom: auto;
     width:380px;
     height:380px;
 }
@@ -180,6 +175,8 @@ header .sidebuttons a .img-email{
     display: flex;
     width:100%;
     height:100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .typed-cursor{
@@ -288,12 +285,12 @@ header .sidebuttons a .img-email{
 
 @media (max-width:767.8px){
     .sidebuttons{
-        display:none
+        display:none;
     }
-    .profile{
-        transform: translate(-42%,-40%);
+    .prof-img{
+        width: 265px;
+        height: 265px;
     }
-
 }
 
 @media (max-width:767px){
@@ -302,294 +299,91 @@ header .sidebuttons a .img-email{
     }
 }
 
-
-@media (max-width:730px){
-    .full-name{
-        font-size: 35px!important;
-    }
-    .description p{
-        font-size:25px;
-    }
-    .prof-img{
-        width:300px;
-        height:300px;
-    }
-
-    .download-cv{
-        width: 55%;
-        font-size: 14px;
-    }
-
-}
-
-@media (max-width:674px){
-    .profile{
-        transform: translate(-45%,-40%);
-    }
-    .cv-button .btn{
-        padding:3px 0px;
-    }
-}
-
-@media (max-width:650px){
-    .white-space{
-        display:block;
-    }
-    .profile{
-        transform: translate(-40%,-40%);
-    }
-
-    .download-cv{
-        width: 90%;
-    }
-
-}
-
-
-
-@media (max-width:576px){
-    .white-space{
-        display:none;
-    }
-    .profile{
-        position: relative;
-        display:block;
-        transform: translate(-32%,-38%);
-    }
-    
-    .header-content .description{
-        line-height: 2.0rem;
-        padding: 1rem 0rem;
-    }
-
-    .full-name{
-        font-size: 50px!important;
-    }
-    .description p{
-        font-size:40px;
-    }
-    .prof-img{
-        width:315px;
-        height:315px;
-    }
-
-    .download-cv{
-        width: 30%;
-    }
-
-    .cv-button .btn{
-        padding:4.5px 0px;
-    }
-}
-
-@media (max-width:560px){
-    .profile{
-        transform: translate(-33%,-38%);
-    }
-}
-
-@media (max-width:540px){
-    .profile{
-        transform: translate(-34.5%,-38%);
-    }
-}
-
-@media (max-width:520px){
-    .profile{
-        transform: translate(-37%,-38%);
-    }
-}
-
-@media (max-width:500px){
-    .profile{
-        transform: translate(-38.5%,-38%);
-    }
-
-    .download-cv{
-        width: 35%;
-    }
-}
-
-@media (max-width:480px){
-    .profile{
-        transform: translate(-39.5%,-38%);
-    }
-}
-
-@media (max-width:460px){
-    .full-name{
-        font-size: 45px!important;
-    }
-    .description p{
-        font-size:35px;
-    }
-    .prof-img{
-        width:310px;
-        height:310px;
-    }
-}
-
-
-@media (max-width:440px){
+@media (max-width:680px){
     .full-name{
         font-size: 40px!important;
     }
     .description p{
-        font-size:30px;
-    }
-    .prof-img{
-        width:305px;
-        height:305px;
-    }
-    .cv-button .btn{
-        padding:4px 0px;
-    }
-}
-
-@media (max-width:420px){
-    .full-name{
-        font-size: 35px!important;
-    }
-    .header-content .description{
-        padding: 1rem 1.7rem;
-    }
-    .description p{
-        font-size:25px;
-    }
-    .prof-img{
-        width:300px;
-        height:300px;
-    }
-    .download-cv{
-        width: 43%;
-    }
-    .cv-button .btn{
-        padding:3px 0px;
-    }
-}
-
-@media (max-width:410px){
-        .full-name{
-            font-size: 30px!important;
-        }
-        .description p{
-            font-size:20px;
-        }
-        .prof-img{
-            width:290px;
-            height:290px;
-        }
-        .download-cv{
-            font-size: 13.5px;
-        }
-        .cv-button .btn{
-            padding:2.5px 0px;
-        }
-}
-
-@media (max-width:390px){
-    .profile{
-        transform: translate(-42%,-38%);
-    }
-}
-
-@media (max-width:380px){
-    .prof-img{
-        width:280px;
-        height:280px;
-    }
-
-    .download-cv{
-        width: 45%;
-    }
-}
-
-@media (max-width:370px){
-    .prof-img{
-        width:270px;
-        height:270px;
-    }
-}
-
-@media (max-width:360px){
-    .prof-img{
-        width:260px;
-        height:260px;
-    }
-
-    .download-cv{
-        width: 47%;
-    }
-}
-
-@media (max-width:350px){
-    .prof-img{
-        width:250px;
-        height:250px;
-    }
-    .download-cv{
-        width: 49%;
-    }
-}
-
-@media (max-width:340px){
-    .full-name{
-        font-size: 28px!important;
-    }
-    .description p{
-        font-size:18px;
-    }
-    .prof-img{
-        width:240px;
-        height:240px;
-    }
-
-    .download-cv{
-        width: 51%;
-    }
-}
-
-@media (max-width:330px){
-    .profile{
-        transform: translate(-43.5%,-38%);
-    }
-    .download-cv{
-        width: 55%;
-    }
-}
-
-@media (max-width:315px){
-    .profile{
-        transform: translate(-46.5%,-38%);
-    }
-    .download-cv{
-        width: 57%;
-    }
-}
-
-@media (max-width:300px){
-    .full-name{
-        font-size: 23px!important;
+        font-size:28px;
     }
     .prof-img{
         width:230px;
         height:230px;
     }
     .download-cv{
-        width: 59%;
+        width: 55%;
+        font-size: 14px;
     }
 }
 
-@media (max-width:290px){
+@media (max-width:640px){
+    header{
+        height: auto;
+        min-height: 580px;
+        padding-bottom: 1.5rem;
+    }
+    .header-content{
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+    .profile{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0.5rem 1rem;
+    }
     .prof-img{
-        width:220px;
-        height:220px;
+        margin: 0 auto 0.5rem;
+        width: 180px;
+        height: 180px;
+    }
+    .header-content .description{
+        margin-left: 0;
+        text-align: center;
+        align-items: center;
+        line-height: 2rem;
+        padding: 0.5rem 0;
+    }
+    .description p{
+        font-size: 26px;
+        text-align: center;
+    }
+    .full-name{
+        font-size: 42px!important;
+    }
+    .cv-button{
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem;
     }
     .download-cv{
-        width: 63.5%;
-        font-size: 13px;
+        min-width: 160px;
+        width: auto;
     }
-    .cv-button .btn{
-        padding: 2px 0;
+}
+
+@media (max-width:420px){
+    .full-name{
+        font-size: 34px!important;
+    }
+    .description p{
+        font-size: 22px;
+    }
+    .prof-img{
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media (max-width:340px){
+    .full-name{
+        font-size: 26px!important;
+    }
+    .description p{
+        font-size: 18px;
+    }
+    .prof-img{
+        width: 135px;
+        height: 135px;
     }
 }

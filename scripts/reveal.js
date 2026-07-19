@@ -17,7 +17,7 @@ function reveal(){
 window.addEventListener('scroll',revealProgress);
 function revealProgress(){
     var progressBars = document.querySelectorAll('.progress-bar');
-    var percentages = ["80%","75%","70%","70%","70%","70%","60%","60%","60%","55%","55%","55%","55%","50%","50%"]
+    var percentages = ["80%","75%","70%","70%","70%","70%","56%","53%","53%","48%","48%","48%","48%","43%","43%"]
 
     for(var i=0; i<progressBars.length; i++){
         var windowHeight = window.innerHeight;
